@@ -19,7 +19,7 @@
         <style>
 
             .full-height {
-                height: 10vh;
+                height: 5vh;
             }
 
             .flex-center {
@@ -63,9 +63,22 @@
         
     </head>
     <body>
+        <!-- top layer -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row">
+                        <p class="bg-primary">Links to social media here</p>
+                    </div>                        
+                </div>
+                    
+            </div>
+                
+        </div>
+
         <div class="container">
             <h1>
-                <a href="#">RichFill Academy</a>
+                <a href="#" class="">RichFill Academy</a>
             </h1>
 
             <h4>
@@ -88,20 +101,23 @@
                 
             </div>
 
-            <div class="navbar">
-                <div class="navbar-inner">
-                    <div class="container">
-                        <ul class="list-inline">
-                            <li class="active"><a href="#">Home</a></li>
-                            <li><a href="">Projects</a></li>
-                            <li><a href="">Services</a></li>
-                            <li><a href="">Downloads</a></li>
-                            <li><a href="">About</a></li>
-                            <li><a href="">Contact</a></li>
-                        </ul>
+            <div class="row">
+                <div class="navbar">
+                    <div class="navbar-inner">
+                        <div class="container">
+                            <ul class="list-inline">
+                                <li class="active"><a href="#">Home</a></li>
+                                <li><a href="">Projects</a></li>
+                                <li><a href="">Services</a></li>
+                                <li><a href="">Downloads</a></li>
+                                <li><a href="">About</a></li>
+                                <li><a href="">Contact</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
+            
 
             <div class="jumbotron">
                 <h1>Marketing Stuff!</h1>
@@ -112,7 +128,7 @@
             </div>
 
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <ul class="nav navlist">
                         <li class="nav-header">What we are?</li>
                         <li class="active"><a href="#">Home</a></li>
@@ -129,7 +145,7 @@
                     </ul>
                 </div>
 
-                <div class="col-md-8">
+                <div class="col-md-9">
                     <h3>How we started ?</h3>
 
                     <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
